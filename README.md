@@ -40,25 +40,42 @@ shell – путь к оболочке
 
 Сборка и установка
 make          # компиляция
+
 make deb      # сборка deb-пакета
+
 sudo dpkg -i kubsh.deb   # установка
+
 После установки оболочка запускается командой kubsh.
 
 Пример использования
 $ kubsh
+
 ₽ echo "Hello, World!"
+
 Hello, World!
+
 ₽ \e $PATH
+
 /usr/local/bin
+
 /usr/bin
+
 /bin
+
 ₽ \l /dev/sda
+
 Partition information for /dev/sda:
+
 ...
+
 ₽ ls -la
+
 total 0
+
 drwxr-xr-x ...
+
 ₽ exit
+
 
 Тестирование и CI
 Проект настроен на автоматическую сборку и тестирование через GitHub Actions.
