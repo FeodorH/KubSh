@@ -77,13 +77,19 @@ drwxr-xr-x ...
 Платформа: Linux (Debian/Ubuntu)
 
 Структура проекта
-.
+
 ├── Makefile
+
 ├── src/
+
 │   └── kubsh.cpp          # основной код оболочки
+
 ├── debian/                # файлы для deb-пакета
+
 ├── .github/workflows/     # CI/CD настройки
+
 └── README.md
+
 Лицензия
 Проект создан в учебных целях
 
